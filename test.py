@@ -8,7 +8,7 @@ import numpy as np
 from PIL import Image
 from itertools import product
 
-cow_fn, bkg_fn = "cow.png", "photo.jpg"
+cow_fn, bkg_fn = "cow.png", "photo2.jpg"
 cow = np.array(Image.open(cow_fn))
 bkg = Image.open(bkg_fn)
 bkg.thumbnail((600, 600))
